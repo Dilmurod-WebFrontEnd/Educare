@@ -5,29 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <header>
         <nav>
             <img class="nav_logo" src="./IMGS/Frame 1.svg" alt="WebPage Logo">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a class="nav_link" href="#">Home</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="#">About</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="#">Courses</a>
-                </li>
-                <li class="nav_item">
-                    <a class="nav_link" href="#">Blog</a>
-                </li>
-                <li class="nav_item">
-                    <button class="nav_btn">Contact Us</button>
-                </li>
-            </ul>
+            <div class="dropdown">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a class="nav_link" href="#">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#">About</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#">Courses</a>
+                    </li>
+                    <li class="nav_item">
+                        <a class="nav_link" href="#">Blog</a>
+                    </li>
+                    <li class="nav_item">
+                        <button class="nav_btn">Contact Us</button>
+                    </li>
+                </ul>
+                <button class="dropdown_btn">
+                    <i class="fa-solid fa-bars "></i>
+                </button>
+            </div>
         </nav>
+        <section class="header_main">
+            <div class="header_main_info">
+                <h1 class="header_main_title">Start learning with us now</h1>
+                <p class="header_main_subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus iusto esse tempora error, fugit nostrum?</p>
+                <button class="header_main_btn">Satrt Learning</button>
+            </div>
+            <img class="header_main_img" src="./IMGS/5437683 1.png" alt="header img">
+        </section>
     </header>
 </body>
 </html>
